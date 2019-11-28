@@ -12,10 +12,10 @@
         cmd> pytest -s -m <marker_name> --html=.\reports\report.html
 
 **Example:**
-cmd> pytest -s -m dashboard --html=.\reports\report.html
+cmd> pytest -s -m dashboard --html=.\reports\report.html 
 
-* s: standard output
-* m : only run tests matching a given mark expression
+s - standard output  
+m - only run tests matching a given mark expression
 
 Available Project Markers:
 * login
