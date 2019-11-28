@@ -25,7 +25,7 @@ Available Project Markers:
 
 Note: If -m is not supplied, pytest is going to execute all the tests in the current directory.
 
-        html : creates html report at the given path, if not supplied report will not be created
+html : creates html report at the given path, if not supplied report will not be created
 
 Results:
 HTML report is saved in a reports\report.html file. It is overwritten with every test execution.
