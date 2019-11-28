@@ -55,7 +55,7 @@ def start_driver(browser=None):
         driver = webdriver.Chrome(executable_path=os.path.join(current_dir, 'webdriver', 'chromedriver.exe'))
     elif browser == "firefox":
         web_page = "file:///" + web_page  # required only for Firefox webdriver
-        driver = webdriver.Firefox()
+        driver = webdriver.Firefox(executable_path=os.path.join(current_dir, 'webdriver', 'geckodriver.exe'))
 
     driver.get(web_page)  # Opens a web page
     driver.maximize_window()  # Maximizes current browser window
