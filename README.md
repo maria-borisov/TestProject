@@ -1,8 +1,8 @@
 # TestProject
 
-Requirements: 
-    - Python 3.0 or higher (https://www.python.org/downloads/) 
-    - Install pip (https://pip.pypa.io/en/stable/installing/) 
+Requirements: \n
+    - Python 3.0 or higher (https://www.python.org/downloads/) \n
+    - Install pip (https://pip.pypa.io/en/stable/installing/) \n
     - Install Python packages: 
         cmd> pip install pytest selenium pytest-html 
 
