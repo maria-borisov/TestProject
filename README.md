@@ -8,7 +8,7 @@
 
 
 **Execute tests:**
-        
+
         cmd> cd root_directory
         
         cmd> pytest -s -m <marker_name> --html=.\reports\report.html
@@ -25,7 +25,7 @@ m - only run tests matching a given mark expression
 * valid_login
 * invalid_login
 
-Note: If -m is not supplied, pytest is going to execute all the tests in the current directory.
+*Note:* If -m is not supplied, pytest is going to execute all the tests in the current directory.
 
 
 **Results:**
