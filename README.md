@@ -6,21 +6,22 @@ Requirements:
 - Install Python packages: 
         cmd> pip install pytest selenium pytest-html 
 
+
 Execute tests:
-    cmd> cd <root directory>
-    cmd> pytest -s -m <marker_name> --html=.\logs\report.html
+        cmd> cd <root directory>
+        cmd> pytest -s -m <marker_name> --html=.\logs\report.html
 
 Example:
-    cmd> pytest -s -m dashboard --html=.\logs\report.html
+cmd> pytest -s -m dashboard --html=.\logs\report.html
 
 -s : standard output
 -m : only run tests matching a given mark expression
 
 Available Project Markers:
-    login
-    dashboard
-    valid_login
-    invalid_login
+        login
+        dashboard
+        valid_login
+        invalid_login
 
 Note: If -m is not supplied, pytest is going to execute all the tests in the current directory.
 --html : creates html report at the given path, if not supplied report will not be created
