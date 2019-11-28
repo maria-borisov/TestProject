@@ -17,7 +17,7 @@ cmd> pytest -s -m dashboard --html=.\reports\report.html
 s - standard output  
 m - only run tests matching a given mark expression
 
-Available Project Markers:
+**Available Project Markers:**
 * login
 * dashboard
 * valid_login
