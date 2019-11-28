@@ -8,7 +8,7 @@
 
 
 **Execute tests:**
-        cmd> cd <root directory>
+        cmd> cd root_directory
         cmd> pytest -s -m <marker_name> --html=.\reports\report.html
 
 **Example:**
