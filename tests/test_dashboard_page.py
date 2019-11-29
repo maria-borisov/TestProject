@@ -10,7 +10,7 @@ from Utilities import utils
 class Test_Webpage():
     """ Test Class: Includes all Dashboard test cases """
 
-    @pytest.mark.chrome
+
     @pytest.mark.dashboard
     def test_add_new_employee(self, browser_login_setup):
         """
@@ -25,7 +25,7 @@ class Test_Webpage():
         # Verify Employee data
         employee.verify_employee_data()
 
-    @pytest.mark.chrome
+
     @pytest.mark.dashboard
     def test_add_new_employee_with_a(self, browser_login_setup):
         """
@@ -41,7 +41,6 @@ class Test_Webpage():
         # Verify Employee data
         employee.verify_employee_data()
 
-    @pytest.mark.chrome
     @pytest.mark.dashboard
     def test_edit_employee(self, browser_login_setup):
         """
@@ -56,7 +55,7 @@ class Test_Webpage():
         # Edit Employee's data
         employee.edit_employee(new_firstname="Luka", new_lastname="Doncic", new_dependents=3)
 
-    @pytest.mark.chrome
+
     @pytest.mark.dashboard
     def test_delete_employee(self, browser_login_setup):
         """
